@@ -1,0 +1,249 @@
+body {
+  font-family: "Noto Kufi Arabic", sans-serif;
+}
+.nav1 ul div.hd #first-li,
+div.hd #hash {
+  border-right: none;
+}
+.nav1 ul div.hd .lang,
+.nav1 ul div.hd #hash {
+  border-left: 2px solid #c2cad1;
+}
+.nav1 ul .pB a {
+  margin-right: 0px;
+  margin-left: 30px;
+}
+
+.nav2 #one a#logo {
+  padding: 0 0 0 15px;
+}
+.hd .search.clicked #first-li > input {
+  padding-left: 0;
+  padding-right: 30px;
+  border-radius: 25px;
+}
+.hd .search.clicked #first-li > i {
+  top: 9px;
+  right: 90%;
+  z-index: 9;
+}
+.nav2 #two a:last-child {
+  width: 130px;
+  height: 30px;
+  line-height: 30px;
+  color: rgb(80, 79, 79);
+  background-color: rgb(224, 230, 34);
+  border-radius: 25px;
+}
+
+.hd .search.clicked #first-li span {
+  top: 1px;
+  right: 6%;
+}
+form {
+  padding: 0 40px 50px 40px;
+}
+form input {
+  padding-left: 10;
+  padding-right: 10px;
+}
+footer nav.foot1 ul a {
+  padding: 0 10px 0 40px;
+}
+footer nav.menu ul {
+  padding-right: 0px;
+  padding-left: 40px;
+}
+
+footer nav.social .con .s .follow {
+  padding-right: 0;
+  padding-left: 40px;
+}
+
+footer nav.social .s ul a {
+  padding: 0 10px 0 10px;
+  color: white;
+}
+
+footer nav.social .d span {
+  padding-right: 0px;
+  padding-left: 40px;
+}
+footer nav.social .d ul a {
+  padding: 0 10px 0 10px;
+  color: white;
+}
+.call .call1 {
+  margin-right: 0;
+  margin-left: 40px;
+}
+nav.lastF ul a:not(:first-of-type) {
+  color: #8a949a;
+  padding: 0 20px;
+  border-left: none;
+  border-right: 2px solid #ffffff;
+}
+footer a:hover > li {
+  padding-left: 0;
+  padding-right: 10px;
+}
+.pinN > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(2.5px);
+}
+@media only screen and (max-width: 1020px) {
+  .nav1.active {
+    grid-area: 1/2/2/3;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .nav1.active ul {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .nav1.active ul div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 10px 0;
+  }
+  .nav1.active ul div a {
+    margin: 10px 0;
+  }
+  .nav1 ul div.hd #first-li,
+  div.hd #hash {
+    border-right: none;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .nav2 ul div#one a,
+  .nav2 ul div#two a {
+    display: none;
+  }
+
+  .nav2 #one a#logo {
+    display: block;
+    position: relative;
+    right: 20px;
+  }
+  .nav2.active {
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .nav2.active ul div#one a,
+  .nav2.active ul div#two a {
+    display: block;
+  }
+  .nav2.active ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0 10px;
+    padding: 0;
+  }
+  .nav2.active ul div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 10px 0;
+    padding: 0;
+  }
+  .nav2.active ul div a {
+    margin: 10px 0;
+    padding: 0;
+  }
+  .nav1 ul div.hd li {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .nav1 ul div.hd .lang,
+  .nav1 ul div.hd #hash {
+    border-left: 0;
+  }
+}
+@media only screen and (max-width: 865px) {
+  footer nav.menu {
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  footer nav.menu ul {
+    margin: 0 0 10px 0;
+    padding: 0;
+  }
+  footer nav.social ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+  }
+  footer nav.social ul a {
+    margin: 10px 0;
+  }
+  footer nav.foot1 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+  }
+  footer nav.social ul a {
+    margin: 10px 0;
+  }
+  footer nav.social .con {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 10px 0 10px 0;
+    color: #ffffff;
+  }
+  footer nav.social .con .s,
+  footer nav.social .con .d,
+  footer nav.social .con .call {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 10px 0 10px 0;
+    color: #ffffff;
+  }
+
+  nav.lastF ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  nav.lastF ul a {
+    margin: 10px 0;
+  }
+  nav.lastF ul a:not(:first-of-type) {
+    color: #8a949a;
+    padding: 0 0;
+    margin-left: 0;
+    border-left: none;
+    border-right: none;
+  }
+  nav.lastF ul a li {
+    margin: 10px 0;
+    padding: 0 0;
+  }
+  nav.lastF ul > li {
+    margin: 10px 0;
+    padding: 0 0;
+  }
+}
